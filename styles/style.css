@@ -1,14 +1,48 @@
-/* font-family: 'Bruno Ace', cursive; */
+/* font-family: 'Bruno Ace', cursive;  */
+/* font-family: 'Mulish', sans-serif;
+   font-family: 'Open Sans', sans-serif; */
 
 * {
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .page {
-  border: 1px solid red;
   width: 1000px;
   margin: 65px auto 0;
 }
+
+/* parte da navegação */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+/* parte da navegação */
+
+/* Parte da logo */
 
 .logo {
   font-family: 'Bruno Ace', cursive;
@@ -21,4 +55,13 @@ span {
 
 .letra {
   color: black;
+}
+
+/* parte da logo */
+
+/* conteúdo */
+
+h1,
+ul {
+  font-family: 'Mulish', sans-serif;
 }
