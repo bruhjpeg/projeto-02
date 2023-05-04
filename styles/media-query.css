@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .page {
+    width: 100vw;
+  }
+
+  .logo {
+    padding-bottom: 20px;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  ul {
+    justify-content: center;
+  }
+
+
+    main {
+      display: block;
+    }
+
+    section {
+      text-align: center;
+    }
+
+    button {
+     margin: 0 auto 40px;
+
+    }
+
+    #girl{
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: auto;
+     
+
+    }
+
+  #fixed {
+    display: none;
+  }
+}
